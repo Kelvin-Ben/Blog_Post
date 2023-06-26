@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Connect, connect } from "react-redux";
+import { connect } from "react-redux";
 import { fetchPost } from "../actions";
 
 class PostList extends Component {
