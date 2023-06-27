@@ -4,13 +4,11 @@ import { fetchPost } from "../actions";
 
 class PostList extends Component {
   componentDidMount() {
-    this.props.fetchPost()
+    this.props.fetchPost();
   }
   render() {
-    return (
-       <div>PostList</div>
-    );
+    return <div>PostList</div>;
   }
 }
 
-export default connect(null, {fetchPost: fetchPost}) (PostList);
+export default connect(null, { fetchPost: fetchPost })(PostList);
